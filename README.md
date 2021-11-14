@@ -4,7 +4,7 @@
 
 ## Live link to this project's GitHub Pages.
 
-### [View Live Site]()
+### [View Live Site](https://faisoabdirisak.github.io/week2-IP/)
 
 
 
@@ -80,7 +80,7 @@ phone numbe: +254700293918
 
 
 
-github -
+github -https://faisoabdirisak.github.io
 
 
-[Go Back to the top](#Akan Names)
+[Go Back to the top](#AkanNames)
