@@ -29,3 +29,58 @@ span{
 margin-left: 350px;
 font-weight: 800;
 }
+/* form */
+.container{
+    position: relative;
+    top: 20px;
+    left: 400px;
+    padding: 20px;
+    background-color: #12566b;
+    width: 50%;
+    height:650px;
+   font-weight: 600;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    color: blanchedalmond;
+    font-style: oblique;
+}
+h2{
+    text-align: center;
+}
+.form{
+    margin: 10px;
+}
+.form-part{
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+}
+.inputs{
+    width: 680px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#submit-btn{
+width: 90px;
+height: 30px;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+margin-top: 20px;
+margin-bottom: 10px;
+background-color:cornsilk;
+}
+#submit-btn:hover{
+color: white;
+background-color: black;
+
+}
+#output{
+    font-size: 1.5rem;
+    padding: 10px;
+}
