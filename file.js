@@ -1,7 +1,11 @@
+// declaring arrays and variables
+
 var CC, YY, MM, DD, d, dValue;
 var femaleNames = ["Akosua", "Adwoa","Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var maleNames = ["Kwasi", "Kwadwo","Kawabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var dayNames = ["Sunday", "monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+// creating function for validating the form
 
 function validateform(){
     var year = document.myform.year.value;
@@ -28,6 +32,8 @@ function validateform(){
              else return true;
 }
 
+//creating function for calculating the dat of the week
+
 function calculateDValue(){
     year = document.getElementById("year").value;
     CC = parseInt(year.substring(0,2));
@@ -38,6 +44,8 @@ function calculateDValue(){
     console.log(d);
     return (Math.floor(d));
   }
+
+  //creating function for the selection of gender based on their nicknames of the day
 
   function getGender(){
     var genders = document.getElementsByName("gender");
