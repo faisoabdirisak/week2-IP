@@ -13,3 +13,17 @@ function validateform(){
    alert("Please enter the correct year");
    return false;
     }
+    else if(month =="" || month.length > 2 || month>12 || isNaN(month) || month <=0){
+        alert("Please enter the correct month");
+        return false;
+         }
+         else if(date =="" || date.length > 2 || date > 31 || isNaN(date) || date <=0){
+            alert("Please enter the correct date");
+            return false;
+             }
+             else if(gender[0].checked==false && gender[1].checked==false){
+                 alert("please choose your gender");
+                 return false;
+             }
+             else return true;
+}
