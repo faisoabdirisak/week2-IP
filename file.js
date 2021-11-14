@@ -50,4 +50,54 @@ function calculateDValue(){
     else{
       return false;
     }
+
+    switch(gender){
+        case "male":
+          if (dValue == 1){
+            alert("You were born on " +dayNames[0] + " and Your akan name is " +maleNames[0]);
+          }
+          else if(dValue == 2){
+            alert("You were born on "+dayNames[1] + " and Your akan name is " +maleNames[1]);
+          }
+          else if(dValue == 3){
+            alert("You were born on " +dayNames[2]+ " and Your akan name is " +maleNames[2]);
+          }
+          else if(dValue == 4){
+            alert("You were born on "+dayNames[3] +  " and Your akan name is " +maleNames[3]);
+          }
+          else if(dValue == 5){
+            alert("You were born on "+dayNames[4] +  " and Your akan name is " +maleNames[4]);
+          }
+          else if(dValue == 6){
+            alert("You were born on "+dayNames[5] +  " and Your akan name is " +maleNames[5]);
+          }
+          else if(dValue == -0){
+            alert("You were born on "+dayNames[6] + " and Your akan name is " +maleNames[6]);
+          }
+        break;
+        case "female":
+          if (dValue == 1){
+            alert("You were born on "+dayNames[0] + " and Your akan name is  " +femaleNames[0]);
+          }
+          else if(dValue == 2){
+            alert("You were born on " +dayNames[1] + " and Your akan name is " +femaleNames[1]);
+          }
+          else if(dValue == 3){
+            alert("You were born on " +dayNames[2] + " and Your akan name is " +femaleNames[2]);
+          }
+          else if(dValue == 4){
+            alert("You were born on " +dayNames[3] + " and Your akan name is " +femaleNames[3]);
+          }
+          else if(dValue == 5){
+            alert("You were born on " +dayNames[4] + " and Your akan name is " +femaleNames[4]);
+          }
+          else if(dValue == 6){
+            alert("You were born on " +dayNames[5] + " and Your akan name is " + femaleNames[5]);
+          }else if(dValue == -0){
+            alert("You were born on " +dayNames[6] + " and Your akan name is " +femaleNames[6]);
+          }
+        break
+        default:
+              
+      }
 }
