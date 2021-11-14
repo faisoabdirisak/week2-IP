@@ -101,3 +101,8 @@ function calculateDValue(){
               
       }
 }
+function getName(){
+    dValue = calculateDValue();
+    getGender();
+   
+  }
