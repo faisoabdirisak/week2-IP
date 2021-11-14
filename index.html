@@ -20,5 +20,32 @@
                  on gender and the day of the week they were born e.g if you are female and born on monday you will be called Adwoa
                 as your new name.</p>
         </div>
+
+        <h2><span>Enter Your Details </span>👇</h2>
+<form name="myform" class="form" onsubmit=" return validateform()">
+    <div class="form-part">
+        <label>The Year You Born:</label><br>
+        <input type="number" class="inputs" id="year" placeholder="Enter the Year your born" name="year">
+    </div>
+<div class="form-part">
+    <label>The Month You Born:</label><br>
+    <input type="number" class="inputs" id="month" placeholder="Enter the month your born" name="month">
+</div>
+
+<div class="form-part">
+    <label>The Date You Born:</label><br>
+    <input type="number" class="inputs" id="date" placeholder="Enter the date your born" name="date">
+</div>
+<div class="form-part">
+    <label>Gender:</label><br><br>
+    <input type="radio" class="radio" name="gender" id="female">&nbsp; Male &nbsp; &nbsp;
+    <input type="radio" class="radio" name="gender" id="female">&nbsp; Female 
+</div>
+<button type="submit" id="submit-btn" onclick="getName();" >Submit</button><br>
+</form>
+<p id="output">
+
+</p>
+    </div>
     </body>
     </html>
