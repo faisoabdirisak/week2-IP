@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#d3d9db;
+   
+    
+}
+/* navbar */
+.nav{
+    background-color:#12566b;
+    height: 30%;
+    width: 100%;
+    display: flex;
+font-size: 2rem;
+
+}
+.logo{
+    margin-right: 70px;
+    font-weight: 800;
+    font-style: oblique;
+}
+span{
+    color: cornsilk;
+}
+.nav-text{
+margin-left: 350px;
+font-weight: 800;
+}
