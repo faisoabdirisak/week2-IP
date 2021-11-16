@@ -12,6 +12,7 @@
 
 + [Description](#description)
 + [Installation Requirement](#Installation)
++ [BDD](#BDD)
 + [Technology Used](#technology-used)
 + [Licence](#licence)
 + [Authors Info](#author-Info)
@@ -40,7 +41,7 @@ The project is setup in the visual studio code by creating an HTML file, a relat
 | Checks if year input field are empty| If no value putted in year field |Please enter the correct year |
 | Checks if month input field are empty| If no value putted in month field |Please enter the correct month |
 | Checks if date input field are empty| If no value putted in date field |Please enter the correct date|
-| Alerts day of the week born and the Akan nickname dependeing on your gender| e.g genger is male and day is tuesday |You born on tuesday and your Akan nicname is Kwabena |
+| Alerts day of the week born and the Akan nickname dependeing on your gender| e.g gender is male and day is tuesday |You born on tuesday and your Akan nicname is Kwabena |
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
