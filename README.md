@@ -21,6 +21,8 @@
 <p>Akan names is originated from Ghanian cultures, where by the names are based
 on gender and the day of the week they were born e.g if you are female and born 
 on monday you will be called Adwoa as your new name.</p>
+
+
 <img src="images/Screenshot from 2021-11-14 15-16-26.png" hieght="400px" width="400px">
 
 ## Installation
